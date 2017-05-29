@@ -69,7 +69,7 @@ public class AIAgent : MonoBehaviour
         }
 
         // IF velocity is greater than zero
-        if (velocity.magnitude > 0)
+        if (velocity != Vector3.zero) // slower alternative: velocity.magnitude > 0
         {
             // SET position to position + velocity x delta time
             transform.position = transform.position + velocity * Time.deltaTime;
