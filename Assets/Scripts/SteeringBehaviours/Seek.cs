@@ -19,6 +19,7 @@ public class Seek : SteeringBehaviour
         {
             // RETURN force
             return force;
+            
         }
 
         // SET desiredForce to direction from target to owner's position

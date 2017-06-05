@@ -15,11 +15,6 @@ public class Wander : SteeringBehaviour
     private Vector3 randomDir;
     private Vector3 circlePos;
 
-    void Start()
-    {
-
-    }
-
     public override Vector3 GetForce()
     {
         // Set orce to zero
